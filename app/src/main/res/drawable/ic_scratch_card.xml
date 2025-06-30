@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Card background -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M20,4H4c-1.1,0 -2,0.9 -2,2v12c0,1.1 0.9,2 2,2h16c1.1,0 2,-0.9 2,-2V6c0,-1.1 -0.9,-2 -2,-2zM20,18H4V6h16v12z" />
+
+    <!-- Scratch area -->
+    <path
+        android:fillColor="#BDBDBD"
+        android:pathData="M6,10h12v2H6z" />
+
+    <!-- Card stripe -->
+    <path
+        android:fillColor="#F57C00"
+        android:pathData="M6,14h8v1.5H6z" />
+
+    <!-- Star (indicates reward/surprise) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,7.5l0.87,1.77 1.95,0.28 -1.41,1.38 0.33,1.93L12,11.75l-1.74,0.91 0.33,-1.93 -1.41,-1.38 1.95,-0.28L12,7.5z" />
+</vector>

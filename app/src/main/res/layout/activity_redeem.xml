@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:padding="20dp">
+
+    <!-- App Title -->
+    <TextView
+        android:id="@+id/redeemTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WheelRush - Redeem"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginBottom="4dp" />
+
+    <!-- App Subtitle -->
+    <TextView
+        android:id="@+id/redeemSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Convert your coins into real cash!"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Live Coin Count -->
+    <TextView
+        android:id="@+id/currentCoinsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Coins: Loading..."
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="16dp" />
+
+    <!-- UPI Input -->
+    <EditText
+        android:id="@+id/upiIdEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter UPI ID"
+        android:background="@drawable/bg_edittext"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Amount Input -->
+    <EditText
+        android:id="@+id/amountEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter amount to redeem"
+        android:inputType="number"
+        android:background="@drawable/bg_edittext"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Redeem Button -->
+    <Button
+        android:id="@+id/redeemBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Redeem Now"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
